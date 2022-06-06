@@ -1,0 +1,40 @@
+.box {
+    display: flex;
+    direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 95%;
+    text-align: left;
+    border: 1px solid rgba(0, 0, 0, 0.115);
+    border-radius: 10px;
+  }
+  
+  .boxContent{
+    display: flex;
+    direction: row;
+    justify-content: space-between;
+  }
+  .btnRemoveEdit {
+    display: flex;
+    direction: row;
+  }
+  
+  .btnItems {
+    margin-bottom: 2px;
+    border: none;
+    background-color: white;
+  }
+
+  .contentTitle{
+    color: rgba(179, 123, 232, 0.851);
+    margin-left: 20px;
+  }
+
+  .check{
+    color: rgba(179, 123, 232, 0.851);
+    margin-left: 20px;
+    margin-top: 20px;
+  }
